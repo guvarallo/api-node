@@ -1,6 +1,12 @@
 {
   "extends": "standard-with-typescript",
-  "parserOptions": {
-    "projects": "./tsconfig.json"
-  }
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "parserOptions": {
+        "project": ["./tsconfig.json"]
+      }
+    }
+  ],
+  "parser": "@typescript-eslint/parser"
 }
