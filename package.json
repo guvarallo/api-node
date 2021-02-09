@@ -6,8 +6,7 @@
   "private": true,
   "scripts": {
     "test": "jest --passWithNoTests --watch",
-    "test:staged": "jest --passWithNoTests",
-    "postinstall": "husky install"
+    "test:staged": "jest --passWithNoTests"
   },
   "keywords": [],
   "author": "",
